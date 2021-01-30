@@ -2,6 +2,14 @@
   "name": "@material-ui/pickers",
   "version": "3.2.11",
   "description": "Modified version with calendar week numbers, dist only",
+  "dependencies": {
+    "@babel/runtime": "^7.6.0",
+    "@date-io/core": "1.x",
+    "@types/styled-jsx": "^2.2.8",
+    "clsx": "^1.0.2",
+    "react-transition-group": "^4.0.0",
+    "rifm": "^0.7.0"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
