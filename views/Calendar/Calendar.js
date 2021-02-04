@@ -155,7 +155,7 @@ var Calendar = /** @class */ (function (_super) {
             var weeks = utils.getWeekArray(_this.state.currentMonth);
             return weeks.map(function (week) { return (React.createElement("div", { key: "week-" + week[0].toString(), className: classes.week },React.createElement("span", { className: classes.weekNumbersCustom },
                 "W",
-                week[6].getWeek()), _this.renderDays(week))); });
+                (week[6].getWeek())+1), _this.renderDays(week))); });
         };
         _this.renderDays = function (week) {
             var _a = _this.props, date = _a.date, renderDay = _a.renderDay, utils = _a.utils;
